@@ -27,9 +27,16 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string",
-        "required": ["RUB", "USD"]
-        }
+        "anyOf": [
+          {
+            "type": "string",
+            "required": [
+              "RUR",
+              "USD"
+            ]
+          }
+        ]
       }
     }
   }
+}
