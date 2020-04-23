@@ -28,11 +28,8 @@
       },
       "currency": {
         "type": "string",
-        "required": [
-          "RUR",
-          "USD"
-          ]
+        "required": ["RUB", "USD"]
+        }
       }
     }
   }
-}
